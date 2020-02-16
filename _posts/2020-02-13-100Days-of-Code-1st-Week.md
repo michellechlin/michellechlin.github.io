@@ -1,5 +1,5 @@
 ---
-title: "Hundred Days Of Code - The First Week"
+title: "Hundred Days Of Code - First Week"
 excerpt_separator: "<!--more-->"
 categories:
   - Web design
@@ -9,7 +9,7 @@ tags:
   - HTML
 ---
 
-After quitting my job from R&D scientist, I become a stay-at-home mom. Although I have more time with my child, the depressed feeling comes and goes a being a full-time mom is lack of appreciation or a missing sense of accomplishment. So, I commit myself to take [100 Days of Code Challenge](https://https://www.100daysofcode.com/) where I spend at least one hour coding for 100 days.
+After quitting my job from Application Scientist at [Bay instrument](https://bayinstruments.com/), I become a stay-at-home mom. Although I have more time with my child, the depressed feeling comes and goes as being a full-time mom is lack of appreciation or a missing sense of accomplishment compared to what I did before as PhD and/or Scientist. So, I commit myself to take [100 Days of Code Challenge](https://https://www.100daysofcode.com/) where I spend at least one hour coding for 100 days.
 
 **This is my main goals:**
 <ul>1. Complete the FreeCampCode Web Certificate</ul>
