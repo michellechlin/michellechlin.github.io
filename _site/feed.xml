@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-14T00:51:35-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle Lin</name></author><entry><title type="html">100DaysOfChallenge-Day1-10</title><link href="http://localhost:4000/year-archive/100Days-of-Code-Day1-10/" rel="alternate" type="text/html" title="100DaysOfChallenge-Day1-10" /><published>2020-02-13T00:00:00-05:00</published><updated>2020-02-13T00:00:00-05:00</updated><id>http://localhost:4000/year-archive/100Days-of-Code-Day1-10</id><content type="html" xml:base="http://localhost:4000/year-archive/100Days-of-Code-Day1-10/">&lt;p&gt;This is my main goals:&lt;/p&gt;</content><author><name>Michelle Lin</name></author><summary type="html">This is my main goals:</summary></entry><entry><title type="html">1DaysOfChallenge-Day1-10</title><link href="http://localhost:4000/year-archive/1Days-of-Code-Day1-10/" rel="alternate" type="text/html" title="1DaysOfChallenge-Day1-10" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/year-archive/1Days-of-Code-Day1-10</id><content type="html" xml:base="http://localhost:4000/year-archive/1Days-of-Code-Day1-10/">&lt;p&gt;test test&lt;/p&gt;</content><author><name>Michelle Lin</name></author><summary type="html">test test</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-16T00:09:34-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle Lin</name></author><entry><title type="html">Hundred Days Of Code - Day1-10</title><link href="http://localhost:4000/web%20design/100Days-of-Code-Day1-10/" rel="alternate" type="text/html" title="Hundred Days Of Code - Day1-10" /><published>2020-02-13T00:00:00-05:00</published><updated>2020-02-13T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-Day1-10</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-Day1-10/">&lt;p&gt;After quitting my job from R&amp;amp;D scientist, I become a stay-at-home mom. Although I have more time with my child, the depressed feeling comes and goes a being a full-time mom is lack of appreciation or a missing sense of accomplishment. So, I commit myself to take &lt;a href=&quot;https://https://www.100daysofcode.com/&quot;&gt;100 Days of Code Challenge&lt;/a&gt; where I spend at least one hour coding for 100 days.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is my main goals:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;1. Complete the FreeCampCode Web Certificate&lt;/ul&gt;
+&lt;ul&gt;2. Have a capability to customize the design of a blog&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;This is the log for the first week:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;Day1:
+    &lt;li&gt; Learn Basic HTML &amp;amp; HTML5 &lt;/li&gt;
+    &lt;li&gt; Create my Github page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Applying very basic HTML code as below in my log:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;Create bullet lists&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;Day2:
+    &lt;li&gt;Continue to Learn HTML &amp;amp; HTML5&lt;/li&gt;
+    &lt;li&gt;Setup local work environment with Atom, GitKraken&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;Day3:
+  &lt;li&gt;Learn CSS style&lt;/li&gt;
+  &lt;li&gt;Learn Jekyll blogging&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;Day4:
+  &lt;li&gt;Done 35% of Applied Visual Design &lt;/li&gt;
+  &lt;li&gt;Get familiar with &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/08-blogging/&quot; alt=&quot;&quot;&gt;Jekyll blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;Day5:
+  &lt;li&gt;Completed applied visual design&lt;/li&gt;
+  &lt;li&gt;Jekyll theme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;Day6:
+  &lt;li&gt;Completed applied visual design&lt;/li&gt;
+  &lt;li&gt;Jekyll theme with &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot; alt=&quot;mmistakes&quot;&gt;@mmistakes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn git and work jekyll blog in the local&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;Day7:
+  &lt;li&gt;Completed Design Principles &amp;amp; CSS Flexbox&lt;/li&gt;
+  &lt;li&gt;1/4 done with CSS Grid &lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;
+&lt;a href=&quot;https://code.likeagirl.io/100-days-of-code-challenge-completed-bbce87f04c00&quot;&gt;Her story of completing 100DaysOfCode&lt;/a&gt;
+&lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;FreeCodeCamp&lt;/a&gt; &lt;a href=&quot;https://www.codenewbie.org/podcast/100-days-of-code&quot;&gt;Podcast of #100DaysOfCode&lt;/a&gt;&lt;/p&gt;</content><author><name>Michelle Lin</name></author><category term="100DaysOfCode" /><category term="CSS" /><category term="HTML" /><summary type="html">After quitting my job from R&amp;amp;D scientist, I become a stay-at-home mom. Although I have more time with my child, the depressed feeling comes and goes a being a full-time mom is lack of appreciation or a missing sense of accomplishment. So, I commit myself to take 100 Days of Code Challenge where I spend at least one hour coding for 100 days. This is my main goals: 1. Complete the FreeCampCode Web Certificate 2. Have a capability to customize the design of a blog This is the log for the first week: Day1: Learn Basic HTML &amp;amp; HTML5 Create my Github page Applying very basic HTML code as below in my log: &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;Create bullet lists&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; Day2: Continue to Learn HTML &amp;amp; HTML5 Setup local work environment with Atom, GitKraken Day3: Learn CSS style Learn Jekyll blogging Day4: Done 35% of Applied Visual Design Get familiar with Jekyll blog Day5: Completed applied visual design Jekyll theme Day6: Completed applied visual design Jekyll theme with @mmistakes Learn git and work jekyll blog in the local Day7: Completed Design Principles &amp;amp; CSS Flexbox 1/4 done with CSS Grid Resources: Her story of completing 100DaysOfCode FreeCodeCamp Podcast of #100DaysOfCode</summary></entry><entry><title type="html">1DaysOfChallenge-Day1-10</title><link href="http://localhost:4000/year-archive/1Days-of-Code-Day1-10/" rel="alternate" type="text/html" title="1DaysOfChallenge-Day1-10" /><published>2019-02-13T00:00:00-05:00</published><updated>2019-02-13T00:00:00-05:00</updated><id>http://localhost:4000/year-archive/1Days-of-Code-Day1-10</id><content type="html" xml:base="http://localhost:4000/year-archive/1Days-of-Code-Day1-10/">&lt;p&gt;test test&lt;/p&gt;</content><author><name>Michelle Lin</name></author><summary type="html">test test</summary></entry></feed>
