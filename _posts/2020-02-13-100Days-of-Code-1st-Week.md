@@ -1,5 +1,5 @@
 ---
-title: "Hundred Days Of Code - First Week"
+title: "Hundred Days Of Code - 1st Week"
 excerpt_separator: "<!--more-->"
 categories:
   - Web design
