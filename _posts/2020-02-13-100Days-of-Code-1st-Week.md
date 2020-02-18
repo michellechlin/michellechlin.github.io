@@ -17,7 +17,7 @@ Jane Goodall once said:
 > What you do makes a difference, and you have to decide
 > what kind of difference you want to make.
 
-My big motivation for taking this challenge is *Learn to Code* to make a difference in changing people's life.
+My big motivation for taking this challenge is **Learn to Code** to make a difference in changing people's life.
 
 <br>
 
