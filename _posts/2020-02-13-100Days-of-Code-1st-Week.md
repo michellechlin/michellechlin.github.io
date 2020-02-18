@@ -9,7 +9,14 @@ tags:
   - HTML
 ---
 
-After quitting my job from Application Scientist at [Bay instrument](https://bayinstruments.com/), I become a stay-at-home mom. Although I have more time with my child, the depressed feeling comes and goes as being a full-time mom is lack of appreciation or a missing sense of accomplishment compared to what I did before as PhD and/or Scientist. So, I commit myself to take [100 Days of Code Challenge](https://https://www.100daysofcode.com/) where I spend at least one hour coding for 100 days.
+
+After quitting my job from Application (R&D) Scientist at Bay instrument, I kinda slow down my career development and become a stay-at-home mom. I do really enjoy the time with my baby boy, but the feeling depression and anxiety as being a full-time mom is lack of appreciation or a missing sense of accomplishment compared to what I did before as PhD and/or Scientist. So, I want to change the daily schedule for myself, for a better future, after my boy go to preK. Here I commit myself to take [100 Days of Code Challenge](https://https://www.100daysofcode.com/) where I spend at least one hour coding for 100 days (in a row).
+
+Jane Goodall once said:
+> What you do makes a difference, and you have to decide
+> what kind of difference you want to make.
+
+My big motivation for taking this Challenge is Learn to Code to make a difference in changing ppl's life. 
 
 **This is my main goals:**
 <ul>1. Complete the FreeCampCode Web Certificate</ul>
