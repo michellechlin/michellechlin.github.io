@@ -27,44 +27,39 @@ My big motivation for taking this challenge is **Learn to Code** to make a diffe
 <hr>
 **This is the log for the first week:**
 <ul>Day1:
-    <li> Learn Basic HTML & HTML5 </li>
-    <li> Create my Github page</li>
+    <ul> 1. Learn Basic HTML & HTML5 </ul>
+    <ul> 2. Create my Github page</ul>
 </ul>
-<p>Applying very basic HTML code as below in my log:</p>
-```
-<ul>
-  <li>Create bullet lists</li>
-</ul>
-```
+
 <ul>Day2:
-    <li>Continue to Learn HTML & HTML5</li>
-    <li>Setup local work environment with Atom, GitKraken</li>
+    <ul>1. Continue to Learn HTML & HTML5</ul>
+    <ul>2. Setup local work environment with Atom, GitKraken</ul>
 </ul>
 
 <ul>Day3:
-  <li>Learn CSS style</li>
-  <li>Learn Jekyll blogging</li>
+  <ul>1. Learn CSS Style</ul>
+  <ul>2. Learn Jekyll blogging</ul>
 </ul>
 
 <ul>Day4:
-  <li>Done 35% of Applied Visual Design </li>
-  <li>Get familiar with <a href="https://jekyllrb.com/docs/step-by-step/08-blogging/" alt="">Jekyll blog</a></li>
+  <ul>1. Done 35% of Applied Visual Design </ul>
+  <ul>2. Get familiar with <a href="https://jekyllrb.com/docs/step-by-step/08-blogging/" alt="">Jekyll blog</a></ul>
 </ul>
 
 <ul>Day5:
-  <li>Completed applied visual design</li>
-  <li>Jekyll theme</li>
+  <ul>1. Learn Applied Visual Design</ul>
+  <ul>2. Learn Jekyll Theme</ul>
 </ul>
 
 <ul>Day6:
-  <li>Completed applied visual design</li>
-  <li>Jekyll theme with <a href="https://mmistakes.github.io/minimal-mistakes/" alt="mmistakes">@mmistakes</a></li>
-  <li>Learn git and work jekyll blog in the local</li>
+  <ul>1. Completed Applied Visual Design</ul>
+  <ul>2. Jekyll Theme with <a href="https://mmistakes.github.io/minimal-mistakes/" alt="mmistakes">@mmistakes</a></ul>
+  <ul>3. Learn git and work jekyll blog in the local</ul>
 </ul>
 
 <ul>Day7:
-  <li>Completed Design Principles & CSS Flexbox</li>
-  <li>1/4 done with CSS Grid </li>
+  <ul>1. Completed Design Principles & CSS Flexbox</ul>
+  <ul>2. Quarterly  done with CSS Grid </ul>
 </ul>
 <hr>
 

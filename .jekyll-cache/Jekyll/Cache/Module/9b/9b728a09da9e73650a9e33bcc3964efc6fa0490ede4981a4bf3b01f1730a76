@@ -1,4 +1,4 @@
-I"Â
+I"
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -7,7 +7,7 @@
         
         <a class="site-title" href="/">
           Mama's Coding Dreams
-          
+          <span class="site-subtitle">A full-time mom who enjoys coding for fun.</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
