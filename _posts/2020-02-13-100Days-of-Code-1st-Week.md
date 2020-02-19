@@ -1,5 +1,7 @@
 ---
-title: "Hundred Days Of Code - 1st Week"
+title: "100 Days Of Code Challenge- D1-10"
+header:
+  teaser: "/assets/images/Code-first-week.jpg"
 excerpt_separator: "<!--more-->"
 categories:
   - Web design
