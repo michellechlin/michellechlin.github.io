@@ -1,0 +1,45 @@
+I"×<p>I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (~7 years ago). So, CSS is not completely new to me.Given that CSS has changed quite substantially in the last few years, participating the <a href="https://codepen.io/michellechlin/full/mdJEVOv">Product Landing Project</a> in <strong>FreeCodeCamp</strong> is really good for myself to refresh the knowledge.</p>
+<blockquote>
+  <p>Even if CSS is very small part of what you might need to do.</p>
+</blockquote>
+
+<p>You did not need to commit to memorize every CSS syntax and values, however, there are some things to make notes will make CSS much easier to use in the future.</p>
+
+<h2 id="css-layout---float-and-clear">CSS Layout - float and clear</h2>
+
+<p><code class="highlighter-rouge">float</code> is used to positioning and formatting content.</p>
+
+<p><code class="highlighter-rouge">clear</code> is used to specify what elements can float beside the cleared element and on which side.</p>
+
+<p><code class="highlighter-rouge">box-sizing</code> defines how width and height of the element</p>
+
+<p><code class="highlighter-rouge">overflow</code> specifies what happens if content overflows an elementsâ€™s box</p>
+
+<p><code class="highlighter-rouge">clearfix</code> works well as you want to control the margins and padding</p>
+
+<p><code class="highlighter-rouge">::after</code> is pseudo-element</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> &lt;style&gt;
+* {  
+  box-sizing: border-box;
+}
+
+.image-container {
+  float: left;
+  width: 50%; /*for two images*/
+  padding: 5px; /* build space between the images */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</code></pre></div></div>
+
+<h2 id="resources-for-future-uses">Resources for future uses:</h2>
+<ul>
+  <li><a href="https://www.w3schools.com/default.asp">w3schools</a></li>
+  <li><a href="https://htmlcolorcodes.com/color-chart/">HTML Color Code</a></li>
+</ul>
+:ET

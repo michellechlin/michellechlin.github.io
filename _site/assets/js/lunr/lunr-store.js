@@ -4,13 +4,8 @@ var store = [{
         "tags": ["100DaysOfCode","CSS","HTML"],
         "url": "http://localhost:4000/web%20design/100Days-of-Code-1st-Week/",
         "teaser":"http://localhost:4000/assets/images/Code-first-week.jpg"},{
-        "title": "100 Days Of Code Challenge- D11-20",
-        "excerpt":"This is the log for the 2nd week:  ","categories": ["Web design"],
-        "tags": ["100DaysOfCode","CSS","HTML"],
-        "url": "http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/",
-        "teaser":"http://localhost:4000/assets/images/Code-second-week.jpg"},{
-        "title": "100 Days Of Code Challenge- D21-30",
-        "excerpt":"This is the log for the 3rd week:  ","categories": ["Web design"],
-        "tags": ["100DaysOfCode","CSS","HTML"],
-        "url": "http://localhost:4000/web%20design/100Days-of-Code-3rd-Week/",
-        "teaser":"https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"}]
+        "title": "Learning Notes For CSS",
+        "excerpt":"I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (~7 years ago). So, CSS is not completely new to me.Given that CSS has changed quite substantially in the last few years, participating the Product Landing Project in FreeCodeCamp is really...","categories": ["Web design"],
+        "tags": ["FreeCodeCamp","CSS","HTML"],
+        "url": "http://localhost:4000/web%20design/Notes-To-Self-CSS-1/",
+        "teaser":"http://localhost:4000/assets/images/Code-Product-Landing.jpg"}]
