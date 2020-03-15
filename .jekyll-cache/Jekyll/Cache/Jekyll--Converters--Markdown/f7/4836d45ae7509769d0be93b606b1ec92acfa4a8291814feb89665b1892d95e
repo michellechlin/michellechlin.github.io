@@ -1,9 +1,9 @@
-I"×<p>I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (~7 years ago). So, CSS is not completely new to me.Given that CSS has changed quite substantially in the last few years, participating the <a href="https://codepen.io/michellechlin/full/mdJEVOv">Product Landing Project</a> in <strong>FreeCodeCamp</strong> is really good for myself to refresh the knowledge.</p>
+I"¿<p>I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the <a href="https://codepen.io/michellechlin/full/mdJEVOv">Product Landing Project</a> in <strong>FreeCodeCamp</strong> is really good for myself to refresh the knowledge.</p>
 <blockquote>
-  <p>Even if CSS is very small part of what you might need to do.</p>
+  <p>Even if CSS is very small part of what I need to do.</p>
 </blockquote>
 
-<p>You did not need to commit to memorize every CSS syntax and values, however, there are some things to make notes will make CSS much easier to use in the future.</p>
+<p>I know I did not need to memorize every CSS syntax and values; however, making notes will make CSS much easier to use in the future.</p>
 
 <h2 id="css-layout---float-and-clear">CSS Layout - float and clear</h2>
 
@@ -15,7 +15,7 @@
 
 <p><code class="highlighter-rouge">overflow</code> specifies what happens if content overflows an elementsâ€™s box</p>
 
-<p><code class="highlighter-rouge">clearfix</code> works well as you want to control the margins and padding</p>
+<p><code class="highlighter-rouge">clearfix</code> works well when you want to control the margins and padding</p>
 
 <p><code class="highlighter-rouge">::after</code> is pseudo-element</p>
 
@@ -36,6 +36,7 @@
   display: table;
 }
 </code></pre></div></div>
+<p>##</p>
 
 <h2 id="resources-for-future-uses">Resources for future uses:</h2>
 <ul>

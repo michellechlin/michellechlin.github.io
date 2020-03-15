@@ -11,10 +11,10 @@ tags:
   - HTML
 ---
 
-I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (~7 years ago). So, CSS is not completely new to me.Given that CSS has changed quite substantially in the last few years, participating the [Product Landing Project](https://codepen.io/michellechlin/full/mdJEVOv) in **FreeCodeCamp** is really good for myself to refresh the knowledge.
-> Even if CSS is very small part of what you might need to do.
+I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the [Product Landing Project](https://codepen.io/michellechlin/full/mdJEVOv) in **FreeCodeCamp** is really good for myself to refresh the knowledge.
+> Even if CSS is very small part of what I need to do.
 
-You did not need to commit to memorize every CSS syntax and values, however, there are some things to make notes will make CSS much easier to use in the future.
+I know I did not need to memorize every CSS syntax and values; however, making notes will make CSS much easier to use in the future.
 
 ## CSS Layout - float and clear  
 
@@ -26,7 +26,7 @@ You did not need to commit to memorize every CSS syntax and values, however, the
 
 `overflow` specifies what happens if content overflows an elements's box
 
-`clearfix` works well as you want to control the margins and padding
+`clearfix` works well when you want to control the margins and padding
 
 `::after` is pseudo-element
 
@@ -49,6 +49,7 @@ You did not need to commit to memorize every CSS syntax and values, however, the
   display: table;
 }
 ```
+##
 
 ## Resources for future uses:
 - [w3schools](https://www.w3schools.com/default.asp)

@@ -1,0 +1,29 @@
+I"	<p>As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. <em>(I used more with R, Matlab during my PhD work)</em>. So, since last year when I was at 9-month pregnancy, I’ve completed <a href="https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and ML Bootcamp</a>, instructed by Jose Portilla. Today, I have some sort of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab a book <strong>The Algebra of Happiness</strong>, make a coffee, and open my computer - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did.</p>
+
+<p>On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, starting from this course <a href="https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/">Tensorflow 2 and Keras Deep Learning Bootcamp</a>.</p>
+
+<p>Hopefully, I can start making fun project soon through applying what I’ve learned everyday. Here I’d like to make notes of every steps and accomplishment, even just a little bit.</p>
+
+<blockquote>
+  <p>Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.
+-Cassie Kozyrkov</p>
+</blockquote>
+
+<h2 id="-day-1-python---tensorflow-setup-and-install">-Day-1: Python - TensorFlow Setup and Install</h2>
+
+<p><strong>Here are the notes for myself:</strong></p>
+
+<ul>
+  <li>Downland Python 3.7 Version from <a href="https://www.anaconda.com/distribution/">Anaconda</a> for MacOS</li>
+  <li>Create a folder, named “TensorFlow” under Desktop/Gitproject/</li>
+  <li>Downland the class materials into the created folder</li>
+</ul>
+
+<p><strong>What I should do next time for STARTING the course:</strong></p>
+
+<ul>
+  <li>Activate <code class="highlighter-rouge">% conda activate mytfenv</code>the TensorFlow Environment</li>
+  <li>Locate the path in terminal like:<code class="highlighter-rouge">% cd Desktop/Gitproject/TensorFlow</code></li>
+  <li>Get into virtual env using <code class="highlighter-rouge">% jupyter notebook</code></li>
+</ul>
+:ET
