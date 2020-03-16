@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>A Journey Into Deep Learning - Week 1 - Mama’s Coding Dreams</title>
-<meta name="description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.  On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.  Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I’d like to make notes of every steps and accomplishment, even just a little bit.     Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov   Day-1 (3/14): TensorFlow Setup and Install  Here are the notes for myself:     Downland Python 3.7 Version from Anaconda for MacOS   Create a folder, named “TensorFlow” under Desktop/Gitproject/   Downland the class materials into the created folder   What I should do next time for STARTING the course:     Activate % conda activate mytfenvthe TensorFlow Environment   Locate the path in terminal like:% cd Desktop/Gitproject/TensorFlow   Get into virtual env using % jupyter notebook  ">
+<meta name="description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.  On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.  Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit.     Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov   Day-1 (3/14): TensorFlow Setup and Install  Here are the notes for myself:     Downland Python 3.7 Version from Anaconda for MacOS   Create a folder, named “TensorFlow” under Desktop/Gitproject/   Downland the class materials into the created folder   What I should do next time for STARTING the course:     Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow   Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment   Get into virtual env using % jupyter notebook   Day-2 (3/15): NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting words into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters         Free text is available here      Importing text:     path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])           Understanding the characters:     vocab = sorted(set(text)) print(vocab) len(vocab)          set() where parameters could be list, tuple or dictionary      Step 2 - ">
 
 
   <meta name="author" content="Michelle CH Lin">
@@ -23,7 +23,7 @@
 <meta property="og:url" content="http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/">
 
 
-  <meta property="og:description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.  On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.  Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I’d like to make notes of every steps and accomplishment, even just a little bit.     Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov   Day-1 (3/14): TensorFlow Setup and Install  Here are the notes for myself:     Downland Python 3.7 Version from Anaconda for MacOS   Create a folder, named “TensorFlow” under Desktop/Gitproject/   Downland the class materials into the created folder   What I should do next time for STARTING the course:     Activate % conda activate mytfenvthe TensorFlow Environment   Locate the path in terminal like:% cd Desktop/Gitproject/TensorFlow   Get into virtual env using % jupyter notebook  ">
+  <meta property="og:description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.  On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.  Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit.     Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov   Day-1 (3/14): TensorFlow Setup and Install  Here are the notes for myself:     Downland Python 3.7 Version from Anaconda for MacOS   Create a folder, named “TensorFlow” under Desktop/Gitproject/   Downland the class materials into the created folder   What I should do next time for STARTING the course:     Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow   Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment   Get into virtual env using % jupyter notebook   Day-2 (3/15): NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting words into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters         Free text is available here      Importing text:     path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])           Understanding the characters:     vocab = sorted(set(text)) print(vocab) len(vocab)          set() where parameters could be list, tuple or dictionary      Step 2 - ">
 
 
 
@@ -280,7 +280,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="A Journey Into Deep Learning - Week 1">
-    <meta itemprop="description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I’d like to make notes of every steps and accomplishment, even just a little bit.  Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.-Cassie KozyrkovDay-1 (3/14): TensorFlow Setup and InstallHere are the notes for myself:  Downland Python 3.7 Version from Anaconda for MacOS  Create a folder, named “TensorFlow” under Desktop/Gitproject/  Downland the class materials into the created folderWhat I should do next time for STARTING the course:  Activate % conda activate mytfenvthe TensorFlow Environment  Locate the path in terminal like:% cd Desktop/Gitproject/TensorFlow  Get into virtual env using % jupyter notebook">
+    <meta itemprop="description" content="As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp.Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit.  Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.-Cassie KozyrkovDay-1 (3/14): TensorFlow Setup and InstallHere are the notes for myself:  Downland Python 3.7 Version from Anaconda for MacOS  Create a folder, named “TensorFlow” under Desktop/Gitproject/  Downland the class materials into the created folderWhat I should do next time for STARTING the course:  Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow  Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment  Get into virtual env using % jupyter notebookDay-2 (3/15): NLP for Text Generation with RNNsWhat is the NLP?Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).  The process of converting words into numbers are called Vectorization.Great summary in Prabhu’s blog.How do we do to generate the useful text?The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character.Details in Andrej Karpathy blogStep 0 - Importing main librariesLibraries are always required:import numpy as npimport pandas as pdimport matplotlib.pyplot as pltimport tensorflow as tfStep 1 - import text &amp; understand the characters      Free text is available here    Importing text:    path_to_file = &#39;FILENAME.txt&#39;text = open(path_to_file, &#39;r&#39;).read()print(text[:1000])        Understanding the characters:    vocab = sorted(set(text))print(vocab)len(vocab)        set() where parameters could be list, tuple or dictionary  Step 2 -">
     <meta itemprop="datePublished" content="2020-03-14T00:00:00-04:00">
     
 
@@ -295,7 +295,7 @@
 
 
 
-  1 minute read
+  2 minute read
 
 </p>
           
@@ -308,7 +308,7 @@
 
 <p>On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course <a href="https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/">Tensorflow 2 and Keras Deep Learning Bootcamp</a>.</p>
 
-<p>Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I’d like to make notes of every steps and accomplishment, <strong>even just a little bit</strong>.</p>
+<p>Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, <strong>even just a little bit</strong>.</p>
 
 <blockquote>
   <p>Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.
@@ -328,10 +328,59 @@
 <p><strong>What I should do next time for STARTING the course:</strong></p>
 
 <ul>
-  <li>Activate <code class="highlighter-rouge">% conda activate mytfenv</code>the TensorFlow Environment</li>
-  <li>Locate the path in terminal like:<code class="highlighter-rouge">% cd Desktop/Gitproject/TensorFlow</code></li>
+  <li>Locate the path in terminal with this code <code class="highlighter-rouge">% cd Desktop/Gitproject/TensorFlow</code></li>
+  <li>Open terminal and type <code class="highlighter-rouge">% conda activate mytfenv</code>for setup TensorFlow Environment</li>
   <li>Get into virtual env using <code class="highlighter-rouge">% jupyter notebook</code></li>
 </ul>
+
+<h2 id="day-2-315-nlp-for-text-generation-with-rnns">Day-2 (3/15): NLP for Text Generation with RNNs</h2>
+
+<h3 id="what-is-the-nlp">What is the NLP?</h3>
+
+<p>Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).</p>
+
+<blockquote>
+  <p>The process of converting words into numbers are called Vectorization.</p>
+</blockquote>
+
+<p>Great summary in <a href="https://towardsdatascience.com/understanding-nlp-word-embeddings-text-vectorization-1a23744f7223">Prabhu’s blog</a>.</p>
+
+<hr />
+
+<h3 id="how-do-we-do-to-generate-the-useful-text">How do we do to generate the useful text?</h3>
+
+<p>The course demonstrates how to use a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural network (RNN)</a> to generate text. Process could be done character by character.
+Details in <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Andrej Karpathy blog</a></p>
+
+<h3 id="step-0---importing-main-libraries">Step 0 - Importing main libraries</h3>
+<p>Libraries are always required:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import tensorflow as tf
+</code></pre></div></div>
+
+<h3 id="step-1---import-text--understand-the-characters">Step 1 - import text &amp; understand the characters</h3>
+<ul>
+  <li>
+    <p>Free text is available <a href="https://www.gutenberg.org/">here</a></p>
+  </li>
+  <li>Importing text:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>path_to_file = 'FILENAME.txt'
+text = open(path_to_file, 'r').read()
+print(text[:1000])
+</code></pre></div>    </div>
+  </li>
+  <li>Understanding the characters:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vocab = sorted(set(text))
+print(vocab)
+len(vocab)
+</code></pre></div>    </div>
+    <p><code class="highlighter-rouge">set()</code> where parameters could be list, tuple or dictionary</p>
+  </li>
+</ul>
+
+<h3 id="step-2--">Step 2 -</h3>
 
         
       </section>
