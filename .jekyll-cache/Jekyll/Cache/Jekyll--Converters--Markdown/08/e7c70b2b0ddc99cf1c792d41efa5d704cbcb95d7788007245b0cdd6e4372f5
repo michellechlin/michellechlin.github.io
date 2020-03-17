@@ -1,0 +1,72 @@
+I"�<h2 id="nlp-for-text-generation-with-rnns">NLP for Text Generation with RNNs</h2>
+
+<h3 id="what-is-the-nlp">What is the NLP?</h3>
+
+<p>Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).</p>
+
+<blockquote>
+  <p>The process of converting text into numbers are called Vectorization.</p>
+</blockquote>
+
+<p>Great summary in <a href="https://towardsdatascience.com/understanding-nlp-word-embeddings-text-vectorization-1a23744f7223">Prabhu’s blog</a>.</p>
+
+<hr />
+
+<h3 id="how-do-we-do-to-generate-the-useful-text">How do we do to generate the useful text?</h3>
+
+<p>The course demonstrates how to use a <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">recurrent neural network (RNN)</a> to generate text. Process could be done character by character.
+Details in <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Andrej Karpathy blog</a></p>
+
+<h3 id="step-0---importing-main-libraries">Step 0 - Importing main libraries</h3>
+<p>Libraries are always required:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import tensorflow as tf
+</code></pre></div></div>
+
+<h3 id="step-1---import-text--understand-the-characters">Step 1 - import text &amp; understand the characters</h3>
+<ul>
+  <li>
+    <p>Free text is available <a href="https://www.gutenberg.org/">here</a></p>
+  </li>
+  <li>Importing text:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>path_to_file = 'FILENAME.txt'
+text = open(path_to_file, 'r').read()
+print(text[:1000])
+</code></pre></div>    </div>
+  </li>
+  <li>Understanding the characters:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vocab = sorted(set(text))
+print(vocab)
+len(vocab)
+</code></pre></div>    </div>
+    <p><code class="highlighter-rouge">set()</code> where parameters could be list, tuple or dictionary</p>
+  </li>
+</ul>
+
+<h3 id="step-2---text-processing">Step 2 - text processing</h3>
+
+<p>As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>char_to_ind = {char:ind for ind, char in enumerate(vocab)}
+char_to_ind['H']
+#33
+
+ind_to_char = np.array(vocab)
+ind_to_char[33]
+#'H'
+</code></pre></div></div>
+<p>%%% Enumerate is a built-in function of Python. It allows us to loop over something and have an automatic counter.</p>
+
+<p>Create Mapping so we can go back and forth from char to num:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># encode text into text.array
+encoded_text = np.array[char_to_ind[c] for c in text]
+sample = text[:20]
+#text
+encoded_text[:20]
+#parallel num for the text
+</code></pre></div></div>
+
+<h3 id="step-3---create-batches">Step 3 - create batches</h3>
+:ET

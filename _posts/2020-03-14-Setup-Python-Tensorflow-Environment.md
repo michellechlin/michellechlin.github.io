@@ -1,5 +1,5 @@
 ---
-title: A Journey Into Deep Learning - Week 1
+title: A Journey Into Deep Learning - Day 1
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
 excerpt_separator: "<!--more-->"
@@ -21,7 +21,7 @@ Hopefully, I can start making fun project soon through applying what I've learne
 > -Cassie Kozyrkov
 
 
-## Day-1 (3/14): TensorFlow Setup and Install
+## TensorFlow Setup and Install
 
 **Here are the notes for myself:**
 
@@ -34,48 +34,3 @@ Hopefully, I can start making fun project soon through applying what I've learne
 * Locate the path in terminal with this code `% cd Desktop/Gitproject/TensorFlow`
 * Open terminal and type `% conda activate mytfenv`for setup TensorFlow Environment
 * Get into virtual env using `% jupyter notebook`
-
-## Day-2 (3/15): NLP for Text Generation with RNNs
-
-### What is the NLP?
-
-Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).
-
-  >The process of converting words into numbers are called Vectorization.
-
-Great summary in [Prabhu's blog](https://towardsdatascience.com/understanding-nlp-word-embeddings-text-vectorization-1a23744f7223).
-
-----------------------
-
-### How do we do to generate the useful text?
-
-The course demonstrates how to use a [recurrent neural network (RNN)](https://en.wikipedia.org/wiki/Recurrent_neural_network) to generate text. Process could be done character by character.
-Details in [Andrej Karpathy blog](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-
-### Step 0 - Importing main libraries
-Libraries are always required:
-```
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import tensorflow as tf
-```
-
-### Step 1 - import text & understand the characters
-* Free text is available [here](https://www.gutenberg.org/)
-
-* Importing text:
-```
-path_to_file = 'FILENAME.txt'
-text = open(path_to_file, 'r').read()
-print(text[:1000])
-```
-* Understanding the characters:
-```
-vocab = sorted(set(text))
-print(vocab)
-len(vocab)
-```
-`set()` where parameters could be list, tuple or dictionary
-
-### Step 2 -

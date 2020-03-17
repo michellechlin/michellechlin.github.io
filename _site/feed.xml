@@ -1,40 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-16T00:05:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle CH Lin</name></author><entry><title type="html">A Journey Into Deep Learning - Week 1</title><link href="http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/" rel="alternate" type="text/html" title="A Journey Into Deep Learning - Week 1" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment</id><content type="html" xml:base="http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/">&lt;p&gt;As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. &lt;em&gt;(I used more with R, Matlab during my PhD work)&lt;/em&gt;. So, since last year when I was at 9-month pregnancy, I’ve completed &lt;a href=&quot;https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/&quot;&gt;Python for Data Science and ML Bootcamp&lt;/a&gt;, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book &lt;em&gt;The Algebra of Happiness&lt;/em&gt;, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.&lt;/p&gt;
-
-&lt;p&gt;On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course &lt;a href=&quot;https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/&quot;&gt;Tensorflow 2 and Keras Deep Learning Bootcamp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, &lt;strong&gt;even just a little bit&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.
--Cassie Kozyrkov&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;day-1-314-tensorflow-setup-and-install&quot;&gt;Day-1 (3/14): TensorFlow Setup and Install&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Here are the notes for myself:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Downland Python 3.7 Version from &lt;a href=&quot;https://www.anaconda.com/distribution/&quot;&gt;Anaconda&lt;/a&gt; for MacOS&lt;/li&gt;
-  &lt;li&gt;Create a folder, named “TensorFlow” under Desktop/Gitproject/&lt;/li&gt;
-  &lt;li&gt;Downland the class materials into the created folder&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;What I should do next time for STARTING the course:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Locate the path in terminal with this code &lt;code class=&quot;highlighter-rouge&quot;&gt;% cd Desktop/Gitproject/TensorFlow&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Open terminal and type &lt;code class=&quot;highlighter-rouge&quot;&gt;% conda activate mytfenv&lt;/code&gt;for setup TensorFlow Environment&lt;/li&gt;
-  &lt;li&gt;Get into virtual env using &lt;code class=&quot;highlighter-rouge&quot;&gt;% jupyter notebook&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;day-2-315-nlp-for-text-generation-with-rnns&quot;&gt;Day-2 (3/15): NLP for Text Generation with RNNs&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-16T23:28:56-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle CH Lin</name></author><entry><title type="html">A Journey Into Deep Learning - Day 2</title><link href="http://localhost:4000/data%20science/RNN-for-text-classification/" rel="alternate" type="text/html" title="A Journey Into Deep Learning - Day 2" /><published>2020-03-16T00:00:00-04:00</published><updated>2020-03-16T00:00:00-04:00</updated><id>http://localhost:4000/data%20science/-RNN%20for%20text%20classification</id><content type="html" xml:base="http://localhost:4000/data%20science/RNN-for-text-classification/">&lt;h2 id=&quot;nlp-for-text-generation-with-rnns&quot;&gt;NLP for Text Generation with RNNs&lt;/h2&gt;
 
 &lt;h3 id=&quot;what-is-the-nlp&quot;&gt;What is the NLP?&lt;/h3&gt;
 
 &lt;p&gt;Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;The process of converting words into numbers are called Vectorization.&lt;/p&gt;
+  &lt;p&gt;The process of converting text into numbers are called Vectorization.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Great summary in &lt;a href=&quot;https://towardsdatascience.com/understanding-nlp-word-embeddings-text-vectorization-1a23744f7223&quot;&gt;Prabhu’s blog&lt;/a&gt;.&lt;/p&gt;
@@ -55,26 +26,71 @@ import tensorflow as tf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;step-1---import-text--understand-the-characters&quot;&gt;Step 1 - import text &amp;amp; understand the characters&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Free text is available &lt;a href=&quot;https://www.gutenberg.org/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Importing text:
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;path_to_file = 'FILENAME.txt'
+&lt;p&gt;Free text is available &lt;a href=&quot;https://www.gutenberg.org/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Importing text:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;path_to_file = 'FILENAME.txt'
 text = open(path_to_file, 'r').read()
 print(text[:1000])
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Understanding the characters:
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vocab = sorted(set(text))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Understanding the characters:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vocab = sorted(set(text))
 print(vocab)
 len(vocab)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;set()&lt;/code&gt; where parameters could be list, tuple or dictionary&lt;/p&gt;
-  &lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;set()&lt;/code&gt; where parameters could be list, tuple or dictionary&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2---text-processing&quot;&gt;Step 2 - text processing&lt;/h3&gt;
+
+&lt;p&gt;As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;char_to_ind = {char:ind for ind, char in enumerate(vocab)}
+char_to_ind['H']
+#33
+
+ind_to_char = np.array(vocab)
+ind_to_char[33]
+#'H'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Note: &lt;code class=&quot;highlighter-rouge&quot;&gt;enumerate&lt;/code&gt; is a built-in function of Python, which allows us to loop over something and have an automatic counter.&lt;/p&gt;
+
+&lt;p&gt;Create Mapping so we can go back and forth from char to num:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# encode text into text.array
+encoded_text = np.array[char_to_ind[c] for c in text]
+sample = text[:20]
+#text
+encoded_text[:20]
+#parallel num for the text
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;step-3---create-batches&quot;&gt;Step 3 - create batches&lt;/h3&gt;</content><author><name>Michelle CH Lin</name></author><category term="Udemy" /><category term="Python" /><category term="TensorFlow" /><summary type="html">NLP for Text Generation with RNNs What is the NLP? Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector). The process of converting text into numbers are called Vectorization. Great summary in Prabhu’s blog. How do we do to generate the useful text? The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf Step 1 - import text &amp;amp; understand the characters Free text is available here Importing text: path_to_file = 'FILENAME.txt' text = open(path_to_file, 'r').read() print(text[:1000]) Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab) set() where parameters could be list, tuple or dictionary Step 2 - text processing As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index. char_to_ind = {char:ind for ind, char in enumerate(vocab)} char_to_ind['H'] #33 ind_to_char = np.array(vocab) ind_to_char[33] #'H' Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter. Create Mapping so we can go back and forth from char to num: # encode text into text.array encoded_text = np.array[char_to_ind[c] for c in text] sample = text[:20] #text encoded_text[:20] #parallel num for the text Step 3 - create batches</summary></entry><entry><title type="html">A Journey Into Deep Learning - Day 1</title><link href="http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/" rel="alternate" type="text/html" title="A Journey Into Deep Learning - Day 1" /><published>2020-03-14T00:00:00-04:00</published><updated>2020-03-14T00:00:00-04:00</updated><id>http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment</id><content type="html" xml:base="http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/">&lt;p&gt;As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. &lt;em&gt;(I used more with R, Matlab during my PhD work)&lt;/em&gt;. So, since last year when I was at 9-month pregnancy, I’ve completed &lt;a href=&quot;https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/&quot;&gt;Python for Data Science and ML Bootcamp&lt;/a&gt;, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book &lt;em&gt;The Algebra of Happiness&lt;/em&gt;, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit.&lt;/p&gt;
+
+&lt;p&gt;On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course &lt;a href=&quot;https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/&quot;&gt;Tensorflow 2 and Keras Deep Learning Bootcamp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, &lt;strong&gt;even just a little bit&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t hate machine learning for being simple. Levers are simple too, but they can move the world.
+-Cassie Kozyrkov&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;tensorflow-setup-and-install&quot;&gt;TensorFlow Setup and Install&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Here are the notes for myself:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Downland Python 3.7 Version from &lt;a href=&quot;https://www.anaconda.com/distribution/&quot;&gt;Anaconda&lt;/a&gt; for MacOS&lt;/li&gt;
+  &lt;li&gt;Create a folder, named “TensorFlow” under Desktop/Gitproject/&lt;/li&gt;
+  &lt;li&gt;Downland the class materials into the created folder&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;step-2--&quot;&gt;Step 2 -&lt;/h3&gt;</content><author><name>Michelle CH Lin</name></author><category term="Udemy" /><category term="Python" /><category term="TensorFlow" /><summary type="html">As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit. On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp. Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit. Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov Day-1 (3/14): TensorFlow Setup and Install Here are the notes for myself: Downland Python 3.7 Version from Anaconda for MacOS Create a folder, named “TensorFlow” under Desktop/Gitproject/ Downland the class materials into the created folder What I should do next time for STARTING the course: Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment Get into virtual env using % jupyter notebook Day-2 (3/15): NLP for Text Generation with RNNs What is the NLP? Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector). The process of converting words into numbers are called Vectorization. Great summary in Prabhu’s blog. How do we do to generate the useful text? The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf Step 1 - import text &amp;amp; understand the characters Free text is available here Importing text: path_to_file = 'FILENAME.txt' text = open(path_to_file, 'r').read() print(text[:1000]) Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab) set() where parameters could be list, tuple or dictionary Step 2 -</summary></entry><entry><title type="html">100 Days Of Code Challenge- D11-20</title><link href="http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/" rel="alternate" type="text/html" title="100 Days Of Code Challenge- D11-20" /><published>2020-02-28T00:00:00-05:00</published><updated>2020-02-28T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-2nd-Week</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/">&lt;p&gt;&lt;strong&gt;This is the log for the 2nd week:&lt;/strong&gt;&lt;/p&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="CSS" /><category term="HTML" /><summary type="html">This is the log for the 2nd week:</summary></entry><entry><title type="html">Learning Notes For CSS</title><link href="http://localhost:4000/web%20design/Notes-To-Self-CSS-1/" rel="alternate" type="text/html" title="Learning Notes For CSS" /><published>2020-02-27T00:00:00-05:00</published><updated>2020-02-27T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/Notes-To-Self-CSS-1</id><content type="html" xml:base="http://localhost:4000/web%20design/Notes-To-Self-CSS-1/">&lt;p&gt;I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the &lt;a href=&quot;https://codepen.io/michellechlin/full/mdJEVOv&quot;&gt;Product Landing Project&lt;/a&gt; in &lt;strong&gt;FreeCodeCamp&lt;/strong&gt; is really good for myself to refresh the knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What I should do next time for STARTING the course:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Locate the path in terminal with this code &lt;code class=&quot;highlighter-rouge&quot;&gt;% cd Desktop/Gitproject/TensorFlow&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Open terminal and type &lt;code class=&quot;highlighter-rouge&quot;&gt;% conda activate mytfenv&lt;/code&gt;for setup TensorFlow Environment&lt;/li&gt;
+  &lt;li&gt;Get into virtual env using &lt;code class=&quot;highlighter-rouge&quot;&gt;% jupyter notebook&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Michelle CH Lin</name></author><category term="Udemy" /><category term="Python" /><category term="TensorFlow" /><summary type="html">As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit. On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp. Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit. Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov TensorFlow Setup and Install Here are the notes for myself: Downland Python 3.7 Version from Anaconda for MacOS Create a folder, named “TensorFlow” under Desktop/Gitproject/ Downland the class materials into the created folder What I should do next time for STARTING the course: Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment Get into virtual env using % jupyter notebook</summary></entry><entry><title type="html">100 Days Of Code Challenge- D11-20</title><link href="http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/" rel="alternate" type="text/html" title="100 Days Of Code Challenge- D11-20" /><published>2020-02-28T00:00:00-05:00</published><updated>2020-02-28T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-2nd-Week</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/">&lt;p&gt;&lt;strong&gt;This is the log for the 2nd week:&lt;/strong&gt;&lt;/p&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="CSS" /><category term="HTML" /><summary type="html">This is the log for the 2nd week:</summary></entry><entry><title type="html">Learning Notes For CSS</title><link href="http://localhost:4000/web%20design/Notes-To-Self-CSS-1/" rel="alternate" type="text/html" title="Learning Notes For CSS" /><published>2020-02-27T00:00:00-05:00</published><updated>2020-02-27T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/Notes-To-Self-CSS-1</id><content type="html" xml:base="http://localhost:4000/web%20design/Notes-To-Self-CSS-1/">&lt;p&gt;I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the &lt;a href=&quot;https://codepen.io/michellechlin/full/mdJEVOv&quot;&gt;Product Landing Project&lt;/a&gt; in &lt;strong&gt;FreeCodeCamp&lt;/strong&gt; is really good for myself to refresh the knowledge.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Even if CSS is very small part of what I need to do.&lt;/p&gt;
 &lt;/blockquote&gt;

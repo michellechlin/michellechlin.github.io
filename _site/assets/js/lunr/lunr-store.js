@@ -14,8 +14,13 @@ var store = [{
         "tags": ["100DaysOfCode","CSS","HTML"],
         "url": "http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/",
         "teaser":"http://localhost:4000/assets/images/Code-second-week.jpg"},{
-        "title": "A Journey Into Deep Learning - Week 1",
+        "title": "A Journey Into Deep Learning - Day 1",
         "excerpt":"As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp,...","categories": ["Data Science"],
         "tags": ["Udemy","Python","TensorFlow"],
         "url": "http://localhost:4000/data%20science/Setup-Python-Tensorflow-Environment/",
+        "teaser":"https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"},{
+        "title": "A Journey Into Deep Learning - Day 2",
+        "excerpt":"NLP for Text Generation with RNNs What is the NLP? Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector). The process of converting text into...","categories": ["Data Science"],
+        "tags": ["Udemy","Python","TensorFlow"],
+        "url": "http://localhost:4000/data%20science/RNN-for-text-classification/",
         "teaser":"https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"}]
