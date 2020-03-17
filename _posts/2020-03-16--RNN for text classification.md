@@ -73,10 +73,10 @@ Create Mapping so we can go back and forth from char to num:
 ```
 # encode text into text.array
 encoded_text = np.array[char_to_ind[c] for c in text]
+# Get the text
 sample = text[:20]
-#text
+# Parallel num for the text
 encoded_text[:20]
-#parallel num for the text
 ```
 
 ### Step 3 - create batches
