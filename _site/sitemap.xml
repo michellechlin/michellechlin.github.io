@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/web%20design/100Days-of-Code-1st-Week/</loc>
+<loc>http://localhost:4000/web%20design/100Days-of-Code-Goal/</loc>
 <lastmod>2020-02-13T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/web%20design/Notes-To-Self-CSS-1/</loc>
-<lastmod>2020-02-27T00:00:00-05:00</lastmod>
+<loc>http://localhost:4000/web%20design/100Days-of-Code-WebCert/</loc>
+<lastmod>2020-02-14T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/web%20design/100Days-of-Code-2nd-Week/</loc>
+<loc>http://localhost:4000/web%20design/100Days-of-Code-WebProject/</loc>
 <lastmod>2020-02-28T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -21,6 +21,13 @@
 <lastmod>2020-03-16T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/web%20design/Bootstrap-Grid-System/</loc>
+<lastmod>2020-03-22T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>

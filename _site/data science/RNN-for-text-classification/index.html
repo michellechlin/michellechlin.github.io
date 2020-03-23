@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>A Journey Into Deep Learning - Day 2 - Mama’s Coding Dreams</title>
-<meta name="description" content="NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting text into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters Free text is available here  Importing text: path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])  Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab)  set() where parameters could be list, tuple or dictionary  Step 2 - text processing  As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.  char_to_ind = {char:ind for ind, char in enumerate(vocab)} char_to_ind[&#39;H&#39;] #33  ind_to_char = np.array(vocab) ind_to_char[33] #&#39;H&#39;  Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.  Create Mapping so we can go back and forth from char to num: # encode text into text.array encoded_text = np.array[char_to_ind[c] for c in text] sample = text[:20] #text encoded_text[:20] #parallel num for the text   Step 3 - create batches ">
+<!-- begin _includes/seo.html --><title>A Journey Into Deep Learning - II. NLP - Mama’s Coding Dreams</title>
+<meta name="description" content="NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting text into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters Free text is available here  Importing text: path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])  Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab)  set() where parameters could be list, tuple or dictionary  Step 2 - text processing  As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.  char_to_ind = {char:ind for ind, char in enumerate(vocab)} char_to_ind[&#39;H&#39;] #33  ind_to_char = np.array(vocab) ind_to_char[33] #&#39;H&#39;  Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.  Create Mapping so we can go back and forth from char to num: # encode text into text.array encoded_text = np.array[char_to_ind[c] for c in text] # Get the text sample = text[:20] # Parallel num for the text encoded_text[:20]   Step 3 - create batches ">
 
 
   <meta name="author" content="Michelle CH Lin">
@@ -19,15 +19,15 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Mama's Coding Dreams">
-<meta property="og:title" content="A Journey Into Deep Learning - Day 2">
+<meta property="og:title" content="A Journey Into Deep Learning - II. NLP">
 <meta property="og:url" content="http://localhost:4000/data%20science/RNN-for-text-classification/">
 
 
-  <meta property="og:description" content="NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting text into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters Free text is available here  Importing text: path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])  Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab)  set() where parameters could be list, tuple or dictionary  Step 2 - text processing  As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.  char_to_ind = {char:ind for ind, char in enumerate(vocab)} char_to_ind[&#39;H&#39;] #33  ind_to_char = np.array(vocab) ind_to_char[33] #&#39;H&#39;  Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.  Create Mapping so we can go back and forth from char to num: # encode text into text.array encoded_text = np.array[char_to_ind[c] for c in text] sample = text[:20] #text encoded_text[:20] #parallel num for the text   Step 3 - create batches ">
+  <meta property="og:description" content="NLP for Text Generation with RNNs  What is the NLP?  Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).     The process of converting text into numbers are called Vectorization.   Great summary in Prabhu’s blog.    How do we do to generate the useful text?  The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character. Details in Andrej Karpathy blog  Step 0 - Importing main libraries Libraries are always required: import numpy as np import pandas as pd import matplotlib.pyplot as plt import tensorflow as tf   Step 1 - import text &amp; understand the characters Free text is available here  Importing text: path_to_file = &#39;FILENAME.txt&#39; text = open(path_to_file, &#39;r&#39;).read() print(text[:1000])  Understanding the characters: vocab = sorted(set(text)) print(vocab) len(vocab)  set() where parameters could be list, tuple or dictionary  Step 2 - text processing  As a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.  char_to_ind = {char:ind for ind, char in enumerate(vocab)} char_to_ind[&#39;H&#39;] #33  ind_to_char = np.array(vocab) ind_to_char[33] #&#39;H&#39;  Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.  Create Mapping so we can go back and forth from char to num: # encode text into text.array encoded_text = np.array[char_to_ind[c] for c in text] # Get the text sample = text[:20] # Parallel num for the text encoded_text[:20]   Step 3 - create batches ">
 
 
 
-  <meta property="og:image" content="https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg">
+  <meta property="og:image" content="http://localhost:4000/.jpg">
 
 
 
@@ -279,15 +279,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="A Journey Into Deep Learning - Day 2">
-    <meta itemprop="description" content="NLP for Text Generation with RNNsWhat is the NLP?Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).  The process of converting text into numbers are called Vectorization.Great summary in Prabhu’s blog.How do we do to generate the useful text?The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character.Details in Andrej Karpathy blogStep 0 - Importing main librariesLibraries are always required:import numpy as npimport pandas as pdimport matplotlib.pyplot as pltimport tensorflow as tfStep 1 - import text &amp; understand the charactersFree text is available hereImporting text:path_to_file = &#39;FILENAME.txt&#39;text = open(path_to_file, &#39;r&#39;).read()print(text[:1000])Understanding the characters:vocab = sorted(set(text))print(vocab)len(vocab)set() where parameters could be list, tuple or dictionaryStep 2 - text processingAs a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.char_to_ind = {char:ind for ind, char in enumerate(vocab)}char_to_ind[&#39;H&#39;]#33ind_to_char = np.array(vocab)ind_to_char[33]#&#39;H&#39;Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.Create Mapping so we can go back and forth from char to num:# encode text into text.arrayencoded_text = np.array[char_to_ind[c] for c in text]sample = text[:20]#textencoded_text[:20]#parallel num for the textStep 3 - create batches">
+    <meta itemprop="headline" content="A Journey Into Deep Learning - II. NLP">
+    <meta itemprop="description" content="NLP for Text Generation with RNNsWhat is the NLP?Natural Language Processing (NLP) extract useful information from the given text or sentence using machine learning and deep learning techniques. The techniques requires text being converted to a set of real number (a vector).  The process of converting text into numbers are called Vectorization.Great summary in Prabhu’s blog.How do we do to generate the useful text?The course demonstrates how to use a recurrent neural network (RNN) to generate text. Process could be done character by character.Details in Andrej Karpathy blogStep 0 - Importing main librariesLibraries are always required:import numpy as npimport pandas as pdimport matplotlib.pyplot as pltimport tensorflow as tfStep 1 - import text &amp; understand the charactersFree text is available hereImporting text:path_to_file = &#39;FILENAME.txt&#39;text = open(path_to_file, &#39;r&#39;).read()print(text[:1000])Understanding the characters:vocab = sorted(set(text))print(vocab)len(vocab)set() where parameters could be list, tuple or dictionaryStep 2 - text processingAs a neural network can’t work with string data, the process of converting text into number is required. So, this section need to create dictionaries that can go from numeric index to character and character to numeric index.char_to_ind = {char:ind for ind, char in enumerate(vocab)}char_to_ind[&#39;H&#39;]#33ind_to_char = np.array(vocab)ind_to_char[33]#&#39;H&#39;Note: enumerate is a built-in function of Python, which allows us to loop over something and have an automatic counter.Create Mapping so we can go back and forth from char to num:# encode text into text.arrayencoded_text = np.array[char_to_ind[c] for c in text]# Get the textsample = text[:20]# Parallel num for the textencoded_text[:20]Step 3 - create batches">
     <meta itemprop="datePublished" content="2020-03-16T00:00:00-04:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">A Journey Into Deep Learning - Day 2
+          <h1 id="page-title" class="page__title" itemprop="headline">A Journey Into Deep Learning - II. NLP
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -363,10 +363,10 @@ ind_to_char[33]
 <p>Create Mapping so we can go back and forth from char to num:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># encode text into text.array
 encoded_text = np.array[char_to_ind[c] for c in text]
+# Get the text
 sample = text[:20]
-#text
+# Parallel num for the text
 encoded_text[:20]
-#parallel num for the text
 </code></pre></div></div>
 
 <h3 id="step-3---create-batches">Step 3 - create batches</h3>
@@ -435,7 +435,7 @@ encoded_text[:20]
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=A+Journey+Into+Deep+Learning+-+Day+2%20http%3A%2F%2Flocalhost%3A4000%2Fdata%2520science%2FRNN-for-text-classification%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=A+Journey+Into+Deep+Learning+-+II.+NLP%20http%3A%2F%2Flocalhost%3A4000%2Fdata%2520science%2FRNN-for-text-classification%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fdata%2520science%2FRNN-for-text-classification%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -446,11 +446,12 @@ encoded_text[:20]
       
   <nav class="pagination">
     
-      <a href="/data%20science/Setup-Python-Tensorflow-Environment/" class="pagination--pager" title="A Journey Into Deep Learning - Day 1
+      <a href="/data%20science/Setup-Python-Tensorflow-Environment/" class="pagination--pager" title="A Journey Into Deep Learning - I. Goal
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/web%20design/Bootstrap-Grid-System/" class="pagination--pager" title="100 Days Of Code Challenge - Front-End Cert
+">Next</a>
     
   </nav>
 
@@ -475,6 +476,43 @@ encoded_text[:20]
       <div class="archive__item-teaser">
         <img src=
           
+            "/assets/images/.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/web%20design/Bootstrap-Grid-System/" rel="permalink">100 Days Of Code Challenge - Front-End Cert
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Bootstrap grid
+Powerful system that can make the webpage design more dynamic and flexible across multiple devices. It allows up to 12 column across the page ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
             "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
           
           alt="">
@@ -482,7 +520,7 @@ encoded_text[:20]
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/data%20science/Setup-Python-Tensorflow-Environment/" rel="permalink">A Journey Into Deep Learning - Day 1
+        <a href="/data%20science/Setup-Python-Tensorflow-Environment/" rel="permalink">A Journey Into Deep Learning - I. Goal
 </a>
       
     </h2>
@@ -518,7 +556,7 @@ encoded_text[:20]
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/web%20design/100Days-of-Code-2nd-Week/" rel="permalink">100 Days Of Code Challenge- D11-20
+        <a href="/web%20design/100Days-of-Code-WebProject/" rel="permalink">100 Days Of Code Challenge- Web Cert-Projects
 </a>
       
     </h2>
@@ -533,43 +571,8 @@ encoded_text[:20]
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">This is the log for the 2nd week:
+I’ will build a little by little for reviewing what i was done later on.
 </p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/Code-Product-Landing.jpg"
-          
-          alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/web%20design/Notes-To-Self-CSS-1/" rel="permalink">Learning Notes For CSS
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely ...</p>
   </article>
 </div>
 
@@ -591,7 +594,7 @@ encoded_text[:20]
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/web%20design/100Days-of-Code-1st-Week/" rel="permalink">100 Days Of Code Challenge- Day1-10
+        <a href="/web%20design/100Days-of-Code-WebCert/" rel="permalink">100 Days Of Code Challenge- Web Cert
 </a>
       
     </h2>
@@ -601,15 +604,24 @@ encoded_text[:20]
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">
 
-My Motivation:
+This Is The Log For What I’ve learned:
 
-After quitting my job from Application (R&amp;D) Scientist at Bay instrument, I kinda slow down my career development and become a stay-at-...</p>
+Day 1:
+    
+      Learn Basic HTML &amp; HTML5
+      Create my Github page
+    
+
+
+Day 2:
+    
+      Continue to Lea...</p>
   </article>
 </div>
 

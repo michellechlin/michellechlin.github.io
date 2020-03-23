@@ -1,0 +1,81 @@
+---
+title: "100 Days Of Code Challenge- Web Cert"
+header:
+  teaser: "/assets/images/Code-first-week.jpg"
+excerpt_separator: "<!--more-->"
+categories:
+  - Web design
+tags:
+  - 100DaysOfCode
+  - CSS
+  - HTML
+---
+<style>
+li{
+  list-style-type: disc;
+}
+</style>
+
+**This Is The Log For What I've learned:**
+
+<ul>Day 1:
+    <ul>
+      <li>Learn Basic HTML & HTML5</li>
+      <li>Create my Github page</li>
+    </ul>
+</ul>
+
+<ul>Day 2:
+    <ul>
+      <li>Continue to Learn HTML & HTML5</li>
+      <li> Setup local work environment with Atom, GitKraken</li>
+    </ul>
+</ul>
+
+<ul>Day 3:
+  <ul>
+    <li>Learn CSS Style</li>
+    <li>Learn Jekyll blogging</li>
+  </ul>
+</ul>
+
+<ul>Day 4:
+  <ul>
+     <li>Done 35% of Applied Visual Design </li>
+     <li>Get familiar with <a href="https://jekyllrb.com/docs/step-by-step/08-blogging/" alt="">Jekyll blog</a></li>
+  </ul>
+</ul>
+
+<ul>Day 5:
+  <ul>
+    <li>Learn Applied Visual Design</li>
+    <li>Learn Jekyll Theme</li>
+  </ul>
+</ul>
+
+<ul>Day 6:
+  <ul>
+    <li>Completed Applied Visual Design</li>
+    <li>Jekyll Theme with <a href="https://mmistakes.github.io/minimal-mistakes/" alt="mmistakes">@mmistakes</a></li>
+    <li>Learn git and work jekyll blog in the local</li>
+  </ul>
+</ul>
+
+<ul>Day7:
+  <ul>
+    <li>Completed Design Principles & CSS Flexbox</li>
+    <li>Quarterly  done with CSS Grid </li>
+  </ul>
+</ul>
+
+<ul>Day8-10:
+  <ul>
+    <li>Building up the 1st project line by line - Tribute Page for Jane Goodall <a href="https://codepen.io/michellechlin/full/eYNNrNj" alt="Tribute Page">Tribute Page</a></li>
+  </ul>
+</ul>
+
+<hr>
+
+**Resources:**
+[Her story of completing 100DaysOfCode](https://code.likeagirl.io/100-days-of-code-challenge-completed-bbce87f04c00)
+[FreeCodeCamp](https://www.freecodecamp.org/) [Podcast of #100DaysOfCode](https://www.codenewbie.org/podcast/100-days-of-code)

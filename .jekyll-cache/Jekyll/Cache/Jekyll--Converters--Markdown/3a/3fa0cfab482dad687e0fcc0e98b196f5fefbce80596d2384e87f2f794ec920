@@ -1,0 +1,30 @@
+I"Å<h2 id="bootstrap-grind">Bootstrap grind</h2>
+<p>Powerful system that can make the webpage design more dynamic and flexible across multiple devices. It allows up to 12 column across the page and more than that columns will stack up no matter the viewpoint. It is responsive, so the columns will re-arrange depending on the screen size.</p>
+
+<h2 id="grid-classes">Grid Classes</h2>
+<p>The Bootstrap grid system has four classes:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">xs</code> (for phones - screens less than 768px wide)</li>
+  <li><code class="highlighter-rouge">sm</code> (for tablets - screens equal to or greater than 768px wide)</li>
+  <li><code class="highlighter-rouge">md</code> (for small laptops - screens equal to or greater than 992px wide)</li>
+  <li><code class="highlighter-rouge">lg</code> (for laptops and desktops - screens equal to or greater than 1200px wide)</li>
+</ul>
+
+<h2 id="basic-structure-as-following">Basic Structure as following:</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-*-*"&gt;&lt;/div&gt;
+    &lt;div class="col-*-*"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-*-*"&gt;&lt;/div&gt;
+    &lt;div class="col-*-*"&gt;&lt;/div&gt;
+    &lt;div class="col-*-*"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="row"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+:ET
