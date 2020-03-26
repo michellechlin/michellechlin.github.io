@@ -34,7 +34,7 @@ My big motivation for taking this challenge is **Learn to Code** to make a diffe
 <ul>4. Prepare AWS SA Associated certificate</ul>
 <hr>
 
-Sounds like a crazy plan while nursing a baby. But at least I'd love to give it a try. I really like to keep up the updated pace of tech outside of world. So, I will be ready while it's time to let go my kid(s). Here I diversify the goals from web language, python to cloud computing AWS service. Hopefully, more project ideas could be done after `100DaysOfCode` Challenge. Let see what I can do.
+Sounds like a crazy plan while nursing a baby. But at least I give it a try. I really like to keep up the tech outside of world. So, I will always feel confident going back to work in two-three years later. Here, I diversify the goals from web language, python to cloud computing AWS service. Hopefully, more projects could be done after all those commitments for `100DaysOfCode` Challenge. Let's see what a crazy mom can do.
 
 **Resources:**
 [Her story of completing 100DaysOfCode](https://code.likeagirl.io/100-days-of-code-challenge-completed-bbce87f04c00)
