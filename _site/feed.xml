@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-23T00:43:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle CH Lin</name></author><entry><title type="html">100 Days Of Code Challenge - Front-End Cert</title><link href="http://localhost:4000/web%20design/Bootstrap-Grid-System/" rel="alternate" type="text/html" title="100 Days Of Code Challenge - Front-End Cert" /><published>2020-03-22T00:00:00-04:00</published><updated>2020-03-22T00:00:00-04:00</updated><id>http://localhost:4000/web%20design/Bootstrap-Grid-System</id><content type="html" xml:base="http://localhost:4000/web%20design/Bootstrap-Grid-System/">&lt;h2 id=&quot;bootstrap-grid&quot;&gt;Bootstrap grid&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-26T01:34:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mama’s Coding Dreams</title><subtitle>A lovely wonderful blog that records my journey of coding while my baby falls asleep.</subtitle><author><name>Michelle CH Lin</name></author><entry><title type="html">100 Days Of Code Challenge - Front-End Cert-BOOTSTRAP</title><link href="http://localhost:4000/web%20design/Bootstrap/" rel="alternate" type="text/html" title="100 Days Of Code Challenge - Front-End Cert-BOOTSTRAP" /><published>2020-03-22T00:00:00-04:00</published><updated>2020-03-22T00:00:00-04:00</updated><id>http://localhost:4000/web%20design/Bootstrap</id><content type="html" xml:base="http://localhost:4000/web%20design/Bootstrap/">&lt;h2 id=&quot;bootstrap-grid&quot;&gt;Bootstrap grid&lt;/h2&gt;
 &lt;p&gt;Powerful system that can make the webpage design more dynamic and flexible across multiple devices. It allows up to 12 column across the page and more than that columns will stack up no matter the viewpoint. It is responsive, so the columns will re-arrange depending on the screen size.&lt;/p&gt;
 
 &lt;h2 id=&quot;grid-classes&quot;&gt;Grid Classes&lt;/h2&gt;
@@ -26,7 +26,62 @@
     ...
   &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="Bootstrap" /><category term="HTML" /><summary type="html">Bootstrap grid Powerful system that can make the webpage design more dynamic and flexible across multiple devices. It allows up to 12 column across the page and more than that columns will stack up no matter the viewpoint. It is responsive, so the columns will re-arrange depending on the screen size. Grid Classes The Bootstrap grid system has four classes: xs (for phones - screens less than 768px wide) sm (for tablets - screens equal to or greater than 768px wide) md (for small laptops - screens equal to or greater than 992px wide) lg (for laptops and desktops - screens equal to or greater than 1200px wide) Basic Structure as following: &amp;lt;div class=&quot;container&quot;&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; ... &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;</summary></entry><entry><title type="html">A Journey Into Deep Learning - II. NLP</title><link href="http://localhost:4000/data%20science/RNN-for-text-classification/" rel="alternate" type="text/html" title="A Journey Into Deep Learning - II. NLP" /><published>2020-03-16T00:00:00-04:00</published><updated>2020-03-16T00:00:00-04:00</updated><id>http://localhost:4000/data%20science/RNN%20for%20text%20classification</id><content type="html" xml:base="http://localhost:4000/data%20science/RNN-for-text-classification/">&lt;h2 id=&quot;nlp-for-text-generation-with-rnns&quot;&gt;NLP for Text Generation with RNNs&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;what-i-learn-about-bootstrap&quot;&gt;What I learn about Bootstrap?&lt;/h2&gt;
+
+&lt;p&gt;Get started with Bootstrap, the pages need to be ready for latest design and development standards.
+HTML5 DOCTYPE and meta tag for proper responsive behave are also required.&lt;/p&gt;
+
+&lt;p&gt;Below is starter template:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &amp;lt;!-- Required meta tags --&amp;gt;
+  &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
+  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+  initial-scale=1, shrink-to-fit=no&quot;&amp;gt;
+
+  &amp;lt;!-- Bootstrap CSS --&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot;
+  href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot;
+  integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot;
+  crossorigin=&quot;anonymous&quot;&amp;gt;
+
+  &amp;lt;!-- Optional JavaScript --&amp;gt;
+    &amp;lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&amp;gt;
+    &amp;lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&quot; integrity=&quot;sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js&quot; integrity=&quot;sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;create-jquery-playground&quot;&gt;Create jQuery Playground&lt;/h2&gt;
+
+&lt;p&gt;Enjoy the Coding practice line by line through freecodecamp lessons:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- Only change code above this line.
+  --&amp;gt;
+&amp;lt;div class=&quot;container-fluid&quot;&amp;gt;
+  &amp;lt;h3 class=&quot;text-primary text-center&quot;&amp;gt;jQuery Playground&amp;lt;/h3&amp;gt;
+  &amp;lt;div class=&quot;row&quot;&amp;gt;
+    &amp;lt;div class=&quot;col-xs-6&quot;&amp;gt;
+      &amp;lt;h4&amp;gt;#left-well&amp;lt;/h4&amp;gt;
+      &amp;lt;div class=&quot;well&quot; id=&quot;left-well&quot;&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target1&quot;&amp;gt;#target1&amp;lt;/button&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target2&quot;&amp;gt;#target2&amp;lt;/button&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target3&quot;&amp;gt;#target3&amp;lt;/button&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;col-xs-6&quot;&amp;gt;
+      &amp;lt;h4&amp;gt;#right-well&amp;lt;/h4&amp;gt;
+      &amp;lt;div class=&quot;well&quot; id=&quot;right-well&quot;&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target4&quot;&amp;gt;#target4&amp;lt;/button&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target5&quot;&amp;gt;#target5&amp;lt;/button&amp;gt;
+        &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target6&quot;&amp;gt;#target6&amp;lt;/button&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;useful-links-for-future-project&quot;&gt;Useful links for future project&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.getbootstrap.com/&quot;&gt;GetBootstarp BLOG&lt;/a&gt;&lt;/p&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="Bootstrap" /><category term="HTML" /><summary type="html">Bootstrap grid Powerful system that can make the webpage design more dynamic and flexible across multiple devices. It allows up to 12 column across the page and more than that columns will stack up no matter the viewpoint. It is responsive, so the columns will re-arrange depending on the screen size. Grid Classes The Bootstrap grid system has four classes: xs (for phones - screens less than 768px wide) sm (for tablets - screens equal to or greater than 768px wide) md (for small laptops - screens equal to or greater than 992px wide) lg (for laptops and desktops - screens equal to or greater than 1200px wide) Basic Structure as following: &amp;lt;div class=&quot;container&quot;&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-*-*&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; ... &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; What I learn about Bootstrap? Get started with Bootstrap, the pages need to be ready for latest design and development standards. HTML5 DOCTYPE and meta tag for proper responsive behave are also required. Below is starter template: &amp;lt;!-- Required meta tags --&amp;gt; &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt; &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&amp;gt; &amp;lt;!-- Bootstrap CSS --&amp;gt; &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css&quot; integrity=&quot;sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO&quot; crossorigin=&quot;anonymous&quot;&amp;gt; &amp;lt;!-- Optional JavaScript --&amp;gt; &amp;lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&amp;gt; &amp;lt;script src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot; integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js&quot; integrity=&quot;sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js&quot; integrity=&quot;sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy&quot; crossorigin=&quot;anonymous&quot;&amp;gt;&amp;lt;/script&amp;gt; Create jQuery Playground Enjoy the Coding practice line by line through freecodecamp lessons: &amp;lt;!-- Only change code above this line. --&amp;gt; &amp;lt;div class=&quot;container-fluid&quot;&amp;gt; &amp;lt;h3 class=&quot;text-primary text-center&quot;&amp;gt;jQuery Playground&amp;lt;/h3&amp;gt; &amp;lt;div class=&quot;row&quot;&amp;gt; &amp;lt;div class=&quot;col-xs-6&quot;&amp;gt; &amp;lt;h4&amp;gt;#left-well&amp;lt;/h4&amp;gt; &amp;lt;div class=&quot;well&quot; id=&quot;left-well&quot;&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target1&quot;&amp;gt;#target1&amp;lt;/button&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target2&quot;&amp;gt;#target2&amp;lt;/button&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target3&quot;&amp;gt;#target3&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;col-xs-6&quot;&amp;gt; &amp;lt;h4&amp;gt;#right-well&amp;lt;/h4&amp;gt; &amp;lt;div class=&quot;well&quot; id=&quot;right-well&quot;&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target4&quot;&amp;gt;#target4&amp;lt;/button&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target5&quot;&amp;gt;#target5&amp;lt;/button&amp;gt; &amp;lt;button class=&quot;btn btn-default target&quot; id=&quot;target6&quot;&amp;gt;#target6&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; Useful links for future project GetBootstarp BLOG</summary></entry><entry><title type="html">A Journey Into Deep Learning - II. NLP</title><link href="http://localhost:4000/data%20science/RNN-for-text-classification/" rel="alternate" type="text/html" title="A Journey Into Deep Learning - II. NLP" /><published>2020-03-16T00:00:00-04:00</published><updated>2020-03-16T00:00:00-04:00</updated><id>http://localhost:4000/data%20science/RNN%20for%20text%20classification</id><content type="html" xml:base="http://localhost:4000/data%20science/RNN-for-text-classification/">&lt;h2 id=&quot;nlp-for-text-generation-with-rnns&quot;&gt;NLP for Text Generation with RNNs&lt;/h2&gt;
 
 &lt;h3 id=&quot;what-is-the-nlp&quot;&gt;What is the NLP?&lt;/h3&gt;
 
@@ -119,7 +174,51 @@ encoded_text[:20]
   &lt;li&gt;Open terminal and type &lt;code class=&quot;highlighter-rouge&quot;&gt;% conda activate mytfenv&lt;/code&gt;for setup TensorFlow Environment&lt;/li&gt;
   &lt;li&gt;Get into virtual env using &lt;code class=&quot;highlighter-rouge&quot;&gt;% jupyter notebook&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Michelle CH Lin</name></author><category term="Udemy" /><category term="Python" /><category term="TensorFlow" /><summary type="html">As I am thinking of self-learning Machine Learning (ML), I want to quickly pick up the skills and foundation of Python. (I used more with R, Matlab during my PhD work). So, since last year when I was at 9-month pregnancy, I’ve completed Python for Data Science and ML Bootcamp, instructed by Jose Portilla. Today, I have some sorts of feeling that I know what I was doing as a mom (~ 6 months after giving birth). Then, I grab and read a book The Algebra of Happiness, make a coffee, and open my MacBook - thinking, I’d like to continue to learn more about ML as I have been always fascinated with data. In between my baby sleep-wake cycle, I read and code and write down what I did, even just a little bit. On Saturday March 14, the world is fighting with coronavirus and my world is thrilling that I start the journey of learning new things, from this course Tensorflow 2 and Keras Deep Learning Bootcamp. Hopefully, I can start making fun project soon through applying what I’ve learned every single time I have when my baby fall asleep and/or take a nap. Here I make notes of every steps and accomplishment, even just a little bit. Don’t hate machine learning for being simple. Levers are simple too, but they can move the world. -Cassie Kozyrkov TensorFlow Setup and Install Here are the notes for myself: Downland Python 3.7 Version from Anaconda for MacOS Create a folder, named “TensorFlow” under Desktop/Gitproject/ Downland the class materials into the created folder What I should do next time for STARTING the course: Locate the path in terminal with this code % cd Desktop/Gitproject/TensorFlow Open terminal and type % conda activate mytfenvfor setup TensorFlow Environment Get into virtual env using % jupyter notebook</summary></entry><entry><title type="html">100 Days Of Code Challenge- Web Cert-Projects</title><link href="http://localhost:4000/web%20design/100Days-of-Code-WebProject/" rel="alternate" type="text/html" title="100 Days Of Code Challenge- Web Cert-Projects" /><published>2020-02-28T00:00:00-05:00</published><updated>2020-02-28T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-WebProject</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-WebProject/">&lt;p&gt;&lt;strong&gt;This is the log for the 2nd week:&lt;/strong&gt;
-I’ will build a little by little for reviewing what i was done later on.&lt;/p&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="CSS" /><category term="HTML" /><summary type="html">This is the log for the 2nd week: I’ will build a little by little for reviewing what i was done later on.</summary></entry><entry><title type="html">100 Days Of Code Challenge- Web Cert</title><link href="http://localhost:4000/web%20design/100Days-of-Code-WebCert/" rel="alternate" type="text/html" title="100 Days Of Code Challenge- Web Cert" /><published>2020-02-14T00:00:00-05:00</published><updated>2020-02-14T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-WebCert</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-WebCert/">&lt;style&gt;
+I’ will build a little by little for reviewing what i was done later on.&lt;/p&gt;</content><author><name>Michelle CH Lin</name></author><category term="100DaysOfCode" /><category term="CSS" /><category term="HTML" /><summary type="html">This is the log for the 2nd week: I’ will build a little by little for reviewing what i was done later on.</summary></entry><entry><title type="html">Learning Notes For CSS</title><link href="http://localhost:4000/web%20design/Notes-1/" rel="alternate" type="text/html" title="Learning Notes For CSS" /><published>2020-02-27T00:00:00-05:00</published><updated>2020-02-27T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/Notes-1</id><content type="html" xml:base="http://localhost:4000/web%20design/Notes-1/">&lt;p&gt;I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the &lt;a href=&quot;https://codepen.io/michellechlin/full/mdJEVOv&quot;&gt;Product Landing Project&lt;/a&gt; in &lt;strong&gt;FreeCodeCamp&lt;/strong&gt; is really good for myself to refresh the knowledge.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Even if CSS is very small part of what I need to do.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I know I did not need to memorize every CSS syntax and values; however, making notes will make CSS much easier to use in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;css-layout---float-and-clear&quot;&gt;CSS Layout - float and clear&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt; is used to positioning and formatting content.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;clear&lt;/code&gt; is used to specify what elements can float beside the cleared element and on which side.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;box-sizing&lt;/code&gt; defines how width and height of the element&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;overflow&lt;/code&gt; specifies what happens if content overflows an elements’s box&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;clearfix&lt;/code&gt; works well when you want to control the margins and padding&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;::after&lt;/code&gt; is pseudo-element&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;style&amp;gt;
+* {  
+  box-sizing: border-box;
+}
+
+.image-container {
+  float: left;
+  width: 50%; /*for two images*/
+  padding: 5px; /* build space between the images */
+}
+
+.clearfix::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;##&lt;/p&gt;
+
+&lt;h2 id=&quot;resources-for-future-uses&quot;&gt;Resources for future uses:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/default.asp&quot;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htmlcolorcodes.com/color-chart/&quot;&gt;HTML Color Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Michelle CH Lin</name></author><category term="FreeCodeCamp" /><category term="CSS" /><category term="HTML" /><summary type="html">I used to design webpages for hosting Taiwan Ocean Science Meeting Events while I worked at Academic Sinica, Taipei (7 years ago). So, CSS is not completely new to me. Given that CSS has changed quite substantially in the last few years, participating the Product Landing Project in FreeCodeCamp is really good for myself to refresh the knowledge. Even if CSS is very small part of what I need to do. I know I did not need to memorize every CSS syntax and values; however, making notes will make CSS much easier to use in the future. CSS Layout - float and clear float is used to positioning and formatting content. clear is used to specify what elements can float beside the cleared element and on which side. box-sizing defines how width and height of the element overflow specifies what happens if content overflows an elements’s box clearfix works well when you want to control the margins and padding ::after is pseudo-element &amp;lt;style&amp;gt; * { box-sizing: border-box; } .image-container { float: left; width: 50%; /*for two images*/ padding: 5px; /* build space between the images */ } .clearfix::after { content: &quot;&quot;; clear: both; display: table; } ## Resources for future uses: w3schools HTML Color Code</summary></entry><entry><title type="html">100 Days Of Code Challenge- Web Cert</title><link href="http://localhost:4000/web%20design/100Days-of-Code-WebCert/" rel="alternate" type="text/html" title="100 Days Of Code Challenge- Web Cert" /><published>2020-02-14T00:00:00-05:00</published><updated>2020-02-14T00:00:00-05:00</updated><id>http://localhost:4000/web%20design/100Days-of-Code-WebCert</id><content type="html" xml:base="http://localhost:4000/web%20design/100Days-of-Code-WebCert/">&lt;style&gt;
 li{
   list-style-type: disc;
 }
